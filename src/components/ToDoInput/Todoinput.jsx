@@ -1,10 +1,10 @@
-import "./Todoinput.css";
+import "./ToDoInput.css";
 
 export default function ToDoInput({ text, newText, addTodo }) {
   return (
-    <div>
-      <input value={text} type="text" onChange={newText} />
-      <button onClick={addTodo}>➕</button>
+    <div className="mainInputContainer">
+      <input className="mainInput" value={text} type="text" onChange={newText} />
+      <button className="inputButton" onClick={addTodo}>+</button>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import ToDoInput from "./components/ToDoInput/Todoinput";
+import ToDoInput from "./components/ToDoInput/ToDoInput";
+
 import AddToDoContainer from "./components/AddToDoContainer/AddToDoContainer";
 
 function App() {
@@ -44,15 +45,22 @@ function App() {
   };
 
   return (
-    <header>
-      <ToDoInput text={text} addTodo={addTodo} newText={newText} />
-
-      <AddToDoContainer
-        toDos={toDos}
-        newToDos={newToDos}
-        changeIsDone={changeIsDone}
-        removeTodo={removeTodo}
-      />
+    <header className="header">
+      <div className="headerTitleContainer">
+        <input className="titleInput" type="checkbox" />
+        <h1 className="headerTitle">ToDo</h1>
+      </div>
+      <div className="inputContainer">
+        <ToDoInput text={text} addTodo={addTodo} newText={newText} />
+      </div>
+      <div>
+        <AddToDoContainer
+          toDos={toDos}
+          newToDos={newToDos}
+          changeIsDone={changeIsDone}
+          removeTodo={removeTodo}
+        />
+      </div>
     </header>
   );
 }

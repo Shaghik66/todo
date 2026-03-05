@@ -1,0 +1,40 @@
+.container {
+  background-color: rgb(216, 216, 216);
+  text-align: center;
+  min-height: 400px;
+}
+
+.listContainer {
+  margin: 0 auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  list-style: none;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-bottom: 6px;
+}
+
+.todoParagraph {
+  text-align: start;
+  min-width: 80%;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.toDoRemoveButton{
+border: none;
+font-size: 25px;
+font-weight: 600;
+background-color: white;
+}
+
+.mainCheckbox{
+    width: 25px;
+}

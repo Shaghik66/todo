@@ -1,0 +1,19 @@
+.mainInputContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mainInput {
+  height: 50px;
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.inputButton {
+  border: none;
+  font-size: 40px;
+  width: 60px;
+  background-color: gray;
+}

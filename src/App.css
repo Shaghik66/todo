@@ -1,0 +1,31 @@
+.header {
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+.headerTitleContainer {
+  display: flex;
+  gap: 10px;
+  background-color: rgb(126, 122, 123);
+  padding: 10px;
+}
+
+.titleInput {
+  width: 30px;
+}
+
+.headerTitle {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.inputContainer {
+  text-align: center;
+}
+
+
+.inputContainer{
+  background-color: rgb(173, 173, 173);
+  padding: 10px;
+}
+
